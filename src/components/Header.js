@@ -12,6 +12,10 @@ const HeaderBar = styled.header`
     padding-left: 1%;
     overflow: hidden;
     box-sizing: border-box;
+
+    @media (max-width: 450px) {
+        height: 50px;
+    }
 `;
 
 const H1 = styled.h1`
@@ -27,6 +31,10 @@ const Nav = styled.nav`
         vertical-align: middle;
         color: grey;
         text-decoration: none;
+
+        @media (max-width: 450px) {
+        padding: 11%;
+    }
     }
 `;
 
@@ -46,6 +54,10 @@ const Li = styled.li`
   flex-direction: column;
   justify-content: center;
   font-weight: bold;
+
+  @media (max-width: 450px) {
+        width: 75px;
+    }
 `;
 
 const NavContainer = styled.div`
