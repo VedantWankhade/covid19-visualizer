@@ -20,7 +20,7 @@ const HeaderBar = styled.header`
 
 const H1 = styled.h1`
   font-size: 2em;
-  color: grey
+  color: #2e2e2e
 `;
 
 const Nav = styled.nav`
@@ -29,7 +29,7 @@ const Nav = styled.nav`
     a {
         padding: 21% 0;
         vertical-align: middle;
-        color: grey;
+        color: #2e2e2e;
         text-decoration: none;
 
         @media (max-width: 450px) {
@@ -83,7 +83,7 @@ const Header = () => {
 
                     <Li>
                     <NavContainer>
-                        <NavLink to="/chart" activeClassName="nav-active" exact>
+                        <NavLink to="/graph" activeClassName="nav-active" exact>
                             Graph
                         </NavLink>
                     </NavContainer>

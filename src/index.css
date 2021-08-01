@@ -8,13 +8,4 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: #081217 !important;
-  /* min-height: 450px; */
-}
-
-#root .App,
-.mapContainer,
-.mapBox {
-  width: 100%;
-  height: 100vh;
 }
