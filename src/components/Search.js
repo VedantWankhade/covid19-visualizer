@@ -15,8 +15,7 @@ const StyledSearch = styled.select`
 
 const Search = () => {
     const context = useContext(SearchContext);
-    console.log(context.location)
-
+    
     return (
         <StyledSearch
             id="country"
