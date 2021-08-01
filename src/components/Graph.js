@@ -1,24 +1,12 @@
+import { useContext, useState } from "react";
+import SearchContext from "../context/searchContext";
 import CanvasJSReact from "../lib/canvasjs.react";
 
-const Graph = () => {
-    let CanvasJSChart = CanvasJSReact.CanvasJSChart;
+let CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
-    const options = {
-        title: {
-            text: 'Test chart'
-        },
-        data: [{
-            type: 'column',
-            dataPoints: [
-                { label: "Apple",  y: 10  },
-                { label: "Orange", y: 15  },
-                { label: "Banana", y: 25  },
-                { label: "Mango",  y: 30  },
-                { label: "Grape",  y: 28  }
-            ]
-        }]
-    };
-    return (<CanvasJSChart options={options} />)
+const Graph = () => {
+    const context = useContext(SearchContext)
+    return <h1>Chart - {context.location.country}</h1>
 }
 
 export default Graph;
