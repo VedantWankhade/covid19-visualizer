@@ -1,3 +1,13 @@
+# Covid19 Visualizer
+The application is live here: https://covid-visualizer.netlify.app/graph
+
+# To Do
+* Add global map
+* Style the app better (use Material UI)
+
+<br />
+<br />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
