@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const initialData = {
     location: {
-        country: 'india'
+        country: 'world'
     },
     onLocationChange: () => {}
 }
