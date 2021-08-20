@@ -8,8 +8,8 @@ const StyledSearch = styled.select`
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 2em;
-    background-color: grey;
-    color: white;
+    background-color: #f2f2f2;
+    // color: white;
 `;
 
 

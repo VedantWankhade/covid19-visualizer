@@ -4,7 +4,7 @@ import styled from "styled-components";
 const HeaderBar = styled.header`
     height: 70px;
     width: 100%;
-    background-color: #ccc;
+    background-color: #f2f2f2;
     padding: 0;
     display: flex;
     align-items: center;

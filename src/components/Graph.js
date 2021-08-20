@@ -70,8 +70,8 @@ const Graph = () => {
     
       const options = {
         animationEnabled: true,
-        theme: "dark2",
-        backgroundColor: "#081217",
+        theme: "light1",
+        backgroundColor: "white",
         title: {
           text: `${countryName ? countryName + " - Last 30 days" : ""}`,
         },
